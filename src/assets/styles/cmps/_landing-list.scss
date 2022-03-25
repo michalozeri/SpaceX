@@ -1,0 +1,28 @@
+.landing-list {
+    margin: auto;
+    background-color: rgb(255, 251, 251);
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        padding: 0;
+        li {
+            list-style: none;
+            margin: 20px 20px;
+            padding: 10px 10px;
+            box-shadow: rgba(15, 15, 15, 0.671) 0px 30px 60px -12px inset, rgba(139, 88, 88, 0.3) 0px 18px 36px -18px inset;
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+        li:hover {
+            box-shadow: rgb(2, 2, 2) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.801) 0px 18px 36px -18px inset;
+            h1 {
+                color: rgb(248, 245, 245);
+            }
+        }
+    }
+}

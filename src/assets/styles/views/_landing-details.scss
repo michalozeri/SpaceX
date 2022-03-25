@@ -1,0 +1,49 @@
+.landing-details {
+    display: flex;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-height: 700px;
+    margin-top: 50px;
+    width: 80vw;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(245, 245, 245);
+    .details {
+        width: 50vw;
+        padding: 10px;
+        h1 {
+            margin-bottom: 30px;
+            font-size: 3rem;
+        }
+        button {
+            border: none;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            font-size: 1.5rem;
+            background-color: inherit;
+        }
+        button:hover {
+            font-size: 2rem;
+        }
+        .landing-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .landing-info {
+            display: flex;
+            width: 800px;
+            margin-bottom: 30px;
+            img {
+                height: 150px;
+                margin-right: 50px;
+            }
+            .info {
+                margin-top: 10px;
+                b {
+                    line-height: 2;
+                }
+            }
+        }
+    }
+}
